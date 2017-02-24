@@ -1,3 +1,15 @@
-# My Awesome Book
+# Sample gitbook with pre-setup docker environment
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+\[Read more at\]\(http://blog.system-mining.xyz/from-create-to-deploy-a-gitbook-document-with-gitbook-editor-and-docker/\)
+
+Usage:
+
+```
+git clone https://github.com/system-mining/sample-gitbook-docker.git
+cd sample-gitbook-docker
+docker-compose up-d
+# access at http://localhost:4000
+```
+
+
+
