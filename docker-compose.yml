@@ -1,0 +1,10 @@
+version: '2'
+services: 
+  gitbook:
+    image: billryan/gitbook
+    ports:
+      - "4000:4000"
+    volumes:
+      - "./:/gitbook"
+
+    command: ["gitbook", "serve"]
